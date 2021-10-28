@@ -8,8 +8,10 @@ html{
 }
 /*---------------------------------------*/
 h1{
+    /*@include important-text;*/
     text-align: center;
     color: #DB1B1B;
+    
 }
 h2{
     text-align: center;
