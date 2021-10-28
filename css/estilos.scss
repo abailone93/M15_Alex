@@ -13,6 +13,10 @@ $color_titulos: #DB1B1B;
     height: 200px;
 
 }
+@mixin borders($color,$width){
+    border:$width solid $color;
+}
+
 html{
     font: $font-nuestra;
 }
@@ -38,6 +42,7 @@ nav{
     }
 }
 p{
+    @include borders(black, 2px);
     font-size: larger;
 }
 footer{
