@@ -1,0 +1,48 @@
+$font-nuestra: Helvetica, sans-serif;
+$color_fondo: #E0F5F1;
+$color_letra_menu: #F4F2F6;
+$color_fondo_menu: #7844AC;
+$color_titulos: #DB1B1B;
+html{
+    font: $font-nuestra;
+}
+h1{
+    position: center;
+    color: $color_titulos;
+}
+nav{
+    background-color: $color_fondo_menu;
+    ul{
+        margin: 0;
+        padding: 0;
+        
+    }
+    li{
+        display: inline-block;
+        color: $color_letra_menu;
+    }
+    a{
+        display: block;
+        padding: 6px 12px;
+        text-decoration: solid;
+    }
+}
+p{
+    font-size: larger;
+}
+footer{
+    margin-bottom: 0;
+}
+body{
+    margin:0;
+    background-color: $color_fondo;
+}
+#pareja{
+    width: 300px;
+}
+img{
+    width: 300px;
+}
+h3{
+    font: $font-nuestra;
+}
