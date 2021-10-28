@@ -8,6 +8,11 @@ $color_fondo: #E0F5F1;
 $color_letra_menu: #F4F2F6;
 $color_fondo_menu: #7844AC;
 $color_titulos: #DB1B1B;
+@mixin tamany-mig{
+    width: 200px;
+    height: 200px;
+
+}
 html{
     font: $font-nuestra;
 }
@@ -46,7 +51,8 @@ body{
     width: 300px;
 }
 img{
-    width: 300px;
+    /*width: 300px;*/
+    @include tamany-mig;
 }
 h3{
     font: $font-nuestra;
